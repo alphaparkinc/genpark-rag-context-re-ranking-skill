@@ -1,0 +1,26 @@
+{
+  "name": "genpark-rag-context-re-ranking-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Semantic cross-encoder re-ranking for RAG.",
+  "author": "genpark",
+  "category": "agentic",
+  "tags": [
+    "rag",
+    "re-ranking"
+  ],
+  "inputs": {
+    "query": {
+      "type": "string"
+    },
+    "documents": {
+      "type": "array"
+    }
+  },
+  "outputs": {
+    "re_ranked_documents": {
+      "type": "array"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
